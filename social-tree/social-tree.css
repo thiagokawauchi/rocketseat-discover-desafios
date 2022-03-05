@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--body-bg-color);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    border: 1px solid var(--purple);
+    border-radius: 50%;
+}
