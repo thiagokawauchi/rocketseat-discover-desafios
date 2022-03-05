@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAEAEA;
+    width: 100vw;
+    height: 100vh;
+    color: #39393A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.receita {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+    margin-top: 30px;
+}
+
+h1 {
+    color: #1B1B1B;
+    font-size: 28px;
+}
+
+h3 {
+    color: #1B1B1B;
+    font-size: 20px;
+}
+
+footer, figcaption {
+    color: #8F8F8F;
+    font-size: 12px;
+}
+
+ul, ol, p {
+    font-size: 16px;
+}
+
+ul, ol {
+    line-height: 26px;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: right;
+}
+
+h3 {
+    text-align: center;
+}
+
+.list {
+    width: 80%;
+}
+
+section {
+    width: 80%;
+}
+
+figure {
+    width: 90%;
+}
