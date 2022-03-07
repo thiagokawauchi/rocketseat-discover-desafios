@@ -18,11 +18,99 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
+    font-family: 'Spartan', Work Sans;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
     background-color: var(--body-bg-color);
     width: 50vw;
     height: 100vh;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+img#logo {
+    width: 50%;    
+}
+
+h3 {
+    margin-left: 20px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+p#p1 {
+    margin-left: 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+p#p2 {
+    margin-left: 20px;
+    color: var(--text-color);
+}
+
+label {
+    margin-left: 20px;
+    color: var(--text-color);
+}
+
+.email-area {
+    margin-left: 20px;
+    display: flex;
+    height: 2rem;
+    align-items: center;
+}
+
+input#email {
+    width: 40vw;
+    height: 2rem;
+}
+
+.green-line {
+    width: 5px;
+    background-color: var(--title-color);
+    height: 2rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+img#flecha {
+    background-color: #8257E5;
+}
+
+button {
+    height: 2rem;
+    background-image: url(./assets/send.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #8257E5;
+    width: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #8257E5;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 30px;
+}
+
+.email {
+    margin-bottom: 30px;
 }
