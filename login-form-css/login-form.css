@@ -44,16 +44,18 @@ body {
 .form-container {
     background-color: #24221f;
     height: 60%;
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 form {
-    background-color: red;
     width: 65%;
     height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #do-log-in {
@@ -67,4 +69,150 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #d4ccb6;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.check-and-pass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p-login {
+    font-family: 'Roboto', sans-serif;
+    color: #afb6c2;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.campo1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-title {
+    font-family: 'Roboto', sans-serif;
+    color: #afb6c2;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.text-input {
+    background-color: #24221f;
+    border: 1px solid #afb6c2;
+    border-radius: 3px;
+    height: 2rem;
+}
+
+.text-input:hover {
+    background-color: #24221f;
+    border: 3px solid #ffc632;
+    border-radius: 3px;
+    height: 2rem;
+}
+
+.campo1 > :placeholder-shown {
+    font-family: 'Roboto', sans-serif;
+    color: #afb6c2;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-left: 2rem;
+    background-image: url(./images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 0.2rem;
+}
+
+.campo1:hover > :placeholder-shown {
+    font-family: 'Roboto', sans-serif;
+    color: #afb6c2;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-left: 2rem;
+    background-image: url(./images/mail-focus.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 0.2rem;
+}
+
+.campo2 > :placeholder-shown {
+    font-family: 'Roboto', sans-serif;
+    color: #afb6c2;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-left: 2rem;
+    background-image: url(./images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 0.2rem;
+}
+
+.campo2:hover > :placeholder-shown {
+    font-family: 'Roboto', sans-serif;
+    color: #afb6c2;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-left: 2rem;
+    background-image: url(./images/lock-focus.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 0.2rem;
+}
+
+#register {
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffc632;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+#register-link {
+    font-family: 'Roboto', sans-serif;
+    color: #ffc632;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #ffc632;
+    border-radius: 4px;
+    height: 2.2rem;
+}
+
+#esqueci {
+    font-family: 'Roboto', sans-serif;
+    color: #ffc632;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+#lembre {
+    font-family: 'Roboto', sans-serif;
+    color: #afb6c2;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
 }

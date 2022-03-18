@@ -15,20 +15,32 @@
     <div class="main-container">
         <div class="form-container">
             <form action="">
-               <div id="do-log-in">
-                    <img src="./images/log-in.svg" alt="log-in icon">
-                    <h2>Faça seu login</h2>
-               </div>
-               <p>Entre com suas informações de cadastro.</p>
-               <label for="">E-mail</label>
-               <input type="email" name="" id="">
-               <label for="">Senha</label>
-               <input type="password" name="" id="">
-               <input type="checkbox" name="" id="">
-               <label for="">Lembre-me</label>
-               <a>Esqueci minha senha</a>
-               <button type="submit">Entrar</button>
-               <p>Não tem uma conta? <a>Registre-se</a></p>
+                <fieldset>
+                    <div id="do-log-in">
+                        <img src="./images/log-in.svg" alt="log-in icon">
+                        <h2>Faça seu login</h2>
+                    </div>
+                    <p id="p-login">Entre com suas informações de cadastro.</p>
+                </fieldset>
+                <div class="campo1">
+                    <label for="" class="label-title">E-mail</label>
+                    <input type="email" name="" id="" class="text-input" 
+                    placeholder="Digite seu e-mail">
+                </div>
+                <div class="campo2">
+                    <label for="" class="label-title">Senha</label>
+                    <input type="password" name="" id="" class="text-input"
+                    placeholder="Digite sua senha">
+                </div>
+                <div class="check-and-pass">
+                    <div class="check">
+                        <input type="checkbox" name="" id="checkbox">
+                        <label for="" id="lembre">Lembre-me</label>
+                    </div>
+                    <a href="#" id="esqueci">Esqueci minha senha</a>
+                </div>
+                <button type="submit">ENTRAR</button>
+                <p id="register">Não tem uma conta?<a href="#" id="register-link">Registre-se</a></p>
             </form>
         </div>
     </div>
