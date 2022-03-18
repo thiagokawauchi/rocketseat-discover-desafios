@@ -36,4 +36,35 @@ body {
     background-repeat: no-repeat;
     background-position-x: 20px;
     background-position-y: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #24221f;
+    height: 60%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: red;
+    width: 65%;
+    height: 80%;
+}
+
+#do-log-in {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    height: 1.2rem;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #d4ccb6;
 }
