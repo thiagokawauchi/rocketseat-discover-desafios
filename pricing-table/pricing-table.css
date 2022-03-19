@@ -11,3 +11,43 @@
     --gray: #828799;
     --page-background: #f9fbfc;
   }
+
+  #background {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+  }
+
+  #blue-background {
+      background-color: #1d539e;
+      flex: 1;
+  }
+
+  #light-background {
+      background-color: #f9fbfc;
+      flex: 1;
+  }
+
+  .title {
+      width: 33%;
+      margin: 50px auto;
+      justify-items: center;
+  }
+
+  .title > h1 {
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      text-align: center;
+  }
+
+  .title > p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
