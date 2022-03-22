@@ -12,7 +12,7 @@
     --page-background: #f9fbfc;
   }
 
-  #background {
+  .background {
       display: flex;
       flex-direction: column;
       width: 100vw;
@@ -23,31 +23,38 @@
       z-index: -1;
   }
 
-  #blue-background {
+  .blue-background {
       background-color: #1d539e;
       flex: 1;
   }
 
-  #light-background {
+  .light-background {
       background-color: #f9fbfc;
       flex: 1;
   }
 
   .title {
-      width: 33%;
+      width: 553px;
       margin: 50px auto;
-      justify-items: center;
   }
 
   .title > h1 {
       font-family: 'Open Sans', sans-serif;
-      color: white;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 65px;
+      color: #FFFFFF;
       text-align: center;
   }
 
   .title > p {
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
     text-align: center;
+    color: #FFFFFF;
     margin-top: 20px;
   }
